@@ -71,7 +71,8 @@ Aloitin tehtävät 4.2.2023 klo 11:00.
 Kirjauduin ensimmäiseksi virtuaalikoneelleni ja avasin terminalin. Lähdin työstämään tehtävää käyttämällä komentoja, jotka olivat käytössä tunnilla.
 Ensimmäiseksi kirjoitin komentokehotteeseen pätkän ```sudoedit /etc/apache2/sites-available/frontpage.conf```, komento avasi editorin, johon syötin kuvassa näkyvät määritteet:</br>
 ![Kuva 1](https://user-images.githubusercontent.com/122887740/216758755-d0717008-b563-4260-a13c-1cfdc2300415.png)</br>
-Seuraavana oli luvassa uuden etusivun konfigurointi oletussivuksi. Operaatio aloitettiin poistamalla ensin oletussivu pois käytöstä komennolla ```sudo a2dissite 000-default.conf´´´ ja syöttämällä uuden sivun käyttämällä komentoa ```sudo a2ensite frontpage.conf```, sekä Apachen palvelun uudelleenkäynti, joka tulee tehdä aina muutoksien jälkeen. Komento: ```systemctl restart apache2```
+Seuraavana oli luvassa uuden etusivun konfigurointi oletussivuksi. Operaatio aloitettiin poistamalla ensin oletussivu pois käytöstä komennolla 
+```sudo a2dissite 000-default.conf``` ja syöttämällä uuden sivun käyttämällä komentoa ```sudo a2ensite frontpage.conf```, sekä Apachen palvelun uudelleenkäynti, joka tulee tehdä aina muutoksien jälkeen. Komento: ```systemctl restart apache2```
 ![Kuva 2](https://user-images.githubusercontent.com/122887740/216759054-e1330500-ff80-4403-8813-6875a27cc35e.png)</br>
 ![Kuva 3](https://user-images.githubusercontent.com/122887740/216759057-3b32836f-f2fa-48ca-9995-8f8b2a1574d2.png)</br>
 Roottina tehtyjen muutosten jälkeen oli tarkoitus siirtyä käyttäjän kansioon tekemään uudet sivut. Onnekseni olinkin jo valmiiksi oman käyttäjäni juurikansiossa, joten aloitin sivujen luonnin ensiksi luomalla uuden kansion nimeltä public_html komennolla ```mkdir public_html```, navigoin sinne komennolla ```cd public_sites``` ja viimeisenä aloitin uuden sivun luonnin komennolla ```micro index.html```. Tekstieditorissa syötin seuraavan tekstin: </br>

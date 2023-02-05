@@ -12,7 +12,7 @@ Dokumentin tarkoituksena on saattaa lukija alkuun Apachen HTTP palvelimen konfig
 	- URL - toimii välikätenä
 	- Server vastaa ja lähettää vastauksen
 - Hostnames and DNS
-	- DNS kääntää palvelimen nimen IP-osoitteeksi
+	- DNS kääntää palvelimen nimen IP-osoitteeksi ja toisinpäin, mikäli näin on konfiguroitu
 	- Yksi tai useampi hostname voi kohdistua samaan IP-osoitteeseen
 	- Useampia web-sivuja voidaan ajaa samalla koneella käyttämällä virtual hosteja
 	- Omaa sivua testaillessa voi muokkaamalla hosts tiedostoa

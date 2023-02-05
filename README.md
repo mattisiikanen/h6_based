@@ -15,7 +15,7 @@ Dokumentin tarkoituksena on saattaa lukija alkuun Apachen HTTP palvelimen konfig
 	- DNS kääntää palvelimen nimen IP-osoitteeksi ja toisinpäin, mikäli näin on konfiguroitu
 	- Yksi tai useampi hostname voi kohdistua samaan IP-osoitteeseen
 	- Useampia web-sivuja voidaan ajaa samalla koneella käyttämällä virtual hosteja
-	- Omaa sivua testaillessa voi muokkaamalla hosts tiedostoa
+	- Omaa sivua / tulevaa sub-domainia voi testailla muokkaamalla hosts tiedostoa
 - Configuration Files and Directives
 	- Configuration tiedostoilla voidaan kontrolloida Apachen sivuja 
 	- Tiedostot saa järjestää haluamansa mukaan ja onkin suositeltavaa tehdä niin, mikäli siinä on järkeä omasta mielestä

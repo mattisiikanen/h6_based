@@ -17,7 +17,7 @@ Dokumentin tarkoituksena on saattaa lukija alkuun Apachen HTTP palvelimen konfig
 	- Useampia web-sivuja voidaan ajaa samalla koneella käyttämällä virtual hosteja
 	- Omaa sivua / tulevaa sub-domainia voi testailla muokkaamalla hosts tiedostoa
 - Configuration Files and Directives
-	- Configuration tiedostoilla voidaan kontrolloida Apachen sivuja 
+	- Configuration tiedostoilla voidaan kontrolloida ja määritellä Apachessa julkaistujen sivustojen määritteitä, mutta ei itse sivujen sisältöä
 	- Tiedostot saa järjestää haluamansa mukaan ja onkin suositeltavaa tehdä niin, mikäli siinä on järkeä omasta mielestä
 	- Directivet määrittelevät tiedon ja asetukset configuration tiedostoissa
 - Web Site Content

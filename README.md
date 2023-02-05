@@ -33,7 +33,7 @@ Dokumentissa käsitellään missä ja miten käytetään name-based virtual host
 - Name-based vs. IP-based Virtual Hosts
 	- IP-based Virtual Host ohjaa liikenteen haluttuun virtuaalihostiin IP-osoitteen perusteella, jokaista hostia varten tarvitaan oma erillinen IP-osoite
 	- Name-based Virtual Host ohjaa liikenteen haluttuun virtuaalihostiin käyttämällä hostnamea HTTP headereissa, tällä tavalla useammalla hostilla voi olla sama IP-osoite
-	- IP-based on historian jäänne ja sitä käytetään vielä joissain erityistapauksissa
+	- IP-based on historian jäänne ja sitä käytetään ainoana vaihtoehtona vielä joissain erityistapauksissa
 	- Name-based on yleisesti käytössä ja sitä suositaan
 - How the server selects the proper name-based virtual host
 	- Ensimmäinen askel on IP-based resoluutio

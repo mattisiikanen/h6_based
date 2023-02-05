@@ -69,7 +69,7 @@ Aloitin tehtävät 4.2.2023 klo 11:00.
 
 ## a) Vaihda Apachelle uusi etusivu
 Kirjauduin ensimmäiseksi virtuaalikoneelleni ja avasin terminalin. Lähdin työstämään tehtävää käyttämällä komentoja, jotka olivat käytössä tunnilla.
-Ensimmäiseksi kirjoitin komentokehotteeseen pätkän ```sudoedit /etc/apache2/sites-available/frontpage.conf```, komento avasi editorin, johon syötin kuvassa näkyvät määritteet:</br>
+Tarkoituksena oli konfiguroida uusi configuration tiedosto Apacheen, joka tulee oletustiedoston tilalle. Ensimmäiseksi kirjoitin komentokehotteeseen pätkän ```sudoedit /etc/apache2/sites-available/frontpage.conf```, komento avasi editorin, johon syötin kuvassa näkyvät määritteet:</br>
 ![Kuva 1](https://user-images.githubusercontent.com/122887740/216758755-d0717008-b563-4260-a13c-1cfdc2300415.png)</br>
 Seuraavana oli luvassa uuden etusivun konfigurointi oletussivuksi. Operaatio aloitettiin poistamalla ensin oletussivu pois käytöstä komennolla 
 ```sudo a2dissite 000-default.conf``` ja syöttämällä uuden sivun käyttämällä komentoa ```sudo a2ensite frontpage.conf```, sekä Apachen palvelun uudelleenkäynti, joka tulee tehdä aina muutoksien jälkeen. Komento: ```systemctl restart apache2```

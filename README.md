@@ -2,7 +2,7 @@
 
 
 ## Lukuläksy
-Lukuläksynä tuli lukea ja tiivistää 2 Apacheen liittyvää dokumenttia: Apache Software Foundation 2023: Getting Started (https://httpd.apache.org/docs/2.4/getting-started.html) ja Apache Software Foundation 2023: Name-based Virtual Host Support (https://httpd.apache.org/docs/current/vhosts/name-based.html)
+Lukuläksynä tuli lukea ja tiivistää kaksi Apacheen liittyvää dokumenttia: Apache Software Foundation 2023: Getting Started (https://httpd.apache.org/docs/2.4/getting-started.html) ja Apache Software Foundation 2023: Name-based Virtual Host Support (https://httpd.apache.org/docs/current/vhosts/name-based.html)
 
 Apache Software Foundation 2023: Getting Started
 Dokumentin tarkoituksena on saattaa lukija alkuun Apachen HTTP palvelimen konfiguroinnissa.
